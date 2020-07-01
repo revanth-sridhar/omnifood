@@ -8,13 +8,14 @@ BASIC SETUP
     box-sizing: border-box;
 }
 
-html { 
+html,body { 
     background-color: #fff;
     color:  #555;
     font-family: 'Lato', 'Arial', 'sans-serif';
     font-weight: 300;
     font-size: 20px;
     text-rendering: optimizeLegibility;
+    overflow-x: hidden;
 }
 
 .clearfix {zoom:1}
@@ -83,6 +84,7 @@ h2:after {
 }
 
 /* -------------PARAGRAPHS-------------------------- */
+
 .long-copy {
     line-height: 145%;
     width: 70%;
@@ -196,7 +198,7 @@ header {
     position: absolute;
     width: 1140px;
     top: 50%;
-    left:50%;   
+    left:50%;
     transform: translate(-50%,-50%);
 }
 
@@ -286,6 +288,10 @@ HOW IT WORKS
 --------------------------------------------- */
 .section-steps {
     background-color: #f4f4f4;
+}
+
+.steps-box {
+    margin-top: 30px;
 }
 
 .steps-box:first-child {
